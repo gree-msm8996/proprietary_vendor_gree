@@ -13,12 +13,20 @@ PRODUCT_COPY_FILES += \
     vendor/gree/g0245d/proprietary/system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/gree/g0245d/proprietary/system/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/gree/g0245d/proprietary/system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/gree/g0245d/proprietary/system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/gree/g0245d/proprietary/system/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/gree/g0245d/proprietary/system/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/gree/g0245d/proprietary/system/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/gree/g0245d/proprietary/system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/gree/g0245d/proprietary/system/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/gree/g0245d/proprietary/system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/gree/g0245d/proprietary/system/etc/camera/imx214_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx214_chromatix.xml \
     vendor/gree/g0245d/proprietary/system/etc/camera/imx230_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx230_chromatix.xml \
     vendor/gree/g0245d/proprietary/system/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx258_chromatix.xml \
     vendor/gree/g0245d/proprietary/system/etc/camera/imx258_ofilm_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx258_ofilm_chromatix.xml \
     vendor/gree/g0245d/proprietary/system/etc/camera/imx298_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx298_chromatix.xml \
     vendor/gree/g0245d/proprietary/system/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/msm8996_camera.xml \
+    vendor/gree/g0245d/proprietary/system/etc/camera/msm8996_camera_G0245D.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/msm8996_camera_G0245D.xml \
     vendor/gree/g0245d/proprietary/system/etc/camera/ov13850_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov13850_chromatix.xml \
     vendor/gree/g0245d/proprietary/system/etc/camera/ov13850_q13v06k_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov13850_q13v06k_chromatix.xml \
     vendor/gree/g0245d/proprietary/system/etc/camera/ov4688_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov4688_chromatix.xml \
@@ -50,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/gree/g0245d/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
     vendor/gree/g0245d/proprietary/vendor/etc/bluetooth/bdaddr:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/bdaddr \
     vendor/gree/g0245d/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
-    vendor/gree/g0245d/proprietary/vendor/firmware/libpn547_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn547_fw.so \
     vendor/gree/g0245d/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
     vendor/gree/g0245d/proprietary/vendor/lib/libactuator_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5823.so \
     vendor/gree/g0245d/proprietary/vendor/lib/libactuator_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64244gwz.so \
@@ -64,6 +71,9 @@ PRODUCT_COPY_FILES += \
     vendor/gree/g0245d/proprietary/vendor/lib/libactuator_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898122.so \
     vendor/gree/g0245d/proprietary/vendor/lib/libactuator_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898212xd.so \
     vendor/gree/g0245d/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz.so \
+    vendor/gree/g0245d/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
+    vendor/gree/g0245d/proprietary/vendor/lib/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_night_shot.so \
+    vendor/gree/g0245d/proprietary/vendor/lib/libarcsoft_nighthawk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_nighthawk.so \
     vendor/gree/g0245d/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
     vendor/gree/g0245d/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_cpp_preview.so \
     vendor/gree/g0245d/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_postproc.so \
@@ -575,8 +585,8 @@ PRODUCT_COPY_FILES += \
     vendor/gree/g0245d/proprietary/vendor/lib/libmmcamera_truly_cmb199_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_truly_cmb199_eeprom.so \
     vendor/gree/g0245d/proprietary/vendor/lib/libmmcamera_vpu_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_vpu_module.so \
     vendor/gree/g0245d/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
-    vendor/gree/g0245d/proprietary/vendor/lib64/hw/fingerprint.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.qcom.so \
+    \
     vendor/gree/g0245d/proprietary/vendor/lib64/libfp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_client.so \
     vendor/gree/g0245d/proprietary/vendor/lib64/libfpalgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpalgorithm.so \
-    vendor/gree/g0245d/proprietary/vendor/lib64/libfphal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfphal.so \
+    \
     vendor/gree/g0245d/proprietary/vendor/lib64/libfpservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice.so
